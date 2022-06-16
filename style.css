@@ -1,3 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
+html ::-webkit-scrollbar{
+    width: 2vh;
+}
+
+html ::-webkit-scrollbar-thumb{ 
+    background-color: lightblue;
+}
+
+html ::-webkit-scrollbar-track{    
+    background: rgb(255, 192, 203);
+}
+
 body {
     background-color: pink;
     color: white;
